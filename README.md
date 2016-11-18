@@ -16,7 +16,6 @@ Turns on and off a light emitting diode(LED) connected to digital
 >**Setup and Assemble Arduino**
 >
 * Recommended Starting Kit: Sparkfun Inventor's Kit
-* Recommended Starting Kit: Sparkfun Inventor's Kit
 * Download Arduino IDE
 * Plug in your Arduino or Arduino compatible microcontroller via USB
 * Open the Arduino IDE, select: File > Examples > Firmata > StandardFirmataPlus
