@@ -12,6 +12,19 @@ About Project
 Turns on and off a light emitting diode(LED) connected to digital
  pin 13, when pressing a pushbutton attached to pin 7.
 
+### Setup and Assemble Arduino
+>**Setup and Assemble Arduino**
+>
+* Recommended Starting Kit: Sparkfun Inventor's Kit
+* Recommended Starting Kit: Sparkfun Inventor's Kit
+* Download Arduino IDE
+* Plug in your Arduino or Arduino compatible microcontroller via USB
+* Open the Arduino IDE, select: File > Examples > Firmata > StandardFirmataPlus
+* StandardFirmataPlus is available in Firmata v2.5.0 or greater
+* Click the "Upload" button.
+
+If the upload was successful, the board is now prepared and you can close the Arduino IDE.
+
 ### Fritzing diagram
 >**Fritzing diagram:** [button-bumper.fzz][2]
 >
@@ -34,6 +47,7 @@ Turns on and off a light emitting diode(LED) connected to digital
 
 - Button **Up**
 >![](https://raw.githubusercontent.com/tcesur/johnny-five-socket-io-arduino/master/screenshot/3.png)
+
 
 
 
