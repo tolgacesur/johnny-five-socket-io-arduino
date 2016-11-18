@@ -1,0 +1,11 @@
+{
+  "name": "johnny-five-socket-io-arduino",
+  "version": "0.0.1",
+  "desciription": "Turns on and off a light emitting diode(LED)",
+  "author": "tolga cesur",
+  "dependencies": {
+    "express": "^4.14.0",
+    "johnny-five": "^0.10.5",
+    "socket.io": "^1.5.1"
+  }
+}

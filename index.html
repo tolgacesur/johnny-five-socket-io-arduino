@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+ var socket = io();
+$(document).ready(function(){
+  socket.on('tetik', function (msg) {
+  $("#mesaj").text("...::"+msg+"::...");
+    if (msg=="YANDI") {
+      document.getElementById('bulb').src='http://www.w3schools.com/js/pic_bulbon.gif'
+    }
+    else {
+      document.getElementById('bulb').src='http://www.w3schools.com/js/pic_bulboff.gif'
+    }
+  });
+});
+</script>
+<style>
+#container
+{
+width: 120px;
+height: 250px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -50px;
+margin-top: -50px;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+      <img id="bulb" src="http://www.w3schools.com/js/pic_bulboff.gif" style="width:100px" ><br>
+      <p id="mesaj"></p>
+</div>
+</body>
+</html>
