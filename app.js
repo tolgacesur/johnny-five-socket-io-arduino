@@ -15,7 +15,7 @@ app.get('/', function (req,res) {
 board.on('ready', function () {
   led= new five.Led(13);
   button= new five.Button({
-    pin:2,
+    pin:7,
     isPullup: true
   });
 
